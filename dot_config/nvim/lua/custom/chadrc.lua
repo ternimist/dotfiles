@@ -28,6 +28,13 @@ M.plugins = {
         -- shell
         "shfmt",
         "shellcheck",
+
+        -- rust
+        "rust-analyzer",
+
+        -- solidity
+        "solang",
+        "solidity",
       },
     },
   },
