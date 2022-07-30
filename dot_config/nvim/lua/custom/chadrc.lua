@@ -10,6 +10,7 @@ M.ui = {
 }
 
 M.plugins = {
+  user = require "custom.plugins",
   override = {
      ["williamboman/mason.nvim"] = {
       ensure_installed = {
